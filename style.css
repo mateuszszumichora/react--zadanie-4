@@ -1,0 +1,31 @@
+* {
+    padding: 10px;
+    margin: 0;
+}
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: deepskyblue;
+    min-height: 100vh;
+    font-size: 18px;
+    font-family: 'Righteous', cursive;
+}
+#app > div {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+button {
+    font-size: 20px;
+    padding: 5px;
+}
+
+.counter {
+    margin: 20px;
+}
+.btn {
+    font-size: 40px;
+}
